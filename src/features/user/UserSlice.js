@@ -49,10 +49,13 @@ const UserSlice = createSlice({
   name: "user",
   initialState,
   reducers: {
-    logoutUser: (state) => {
+    logoutUser: (state, { payload }) => {
       state.user = null;
       state.isSidebarOpen = false;
       removeUserFromLocalStorage();
+      if (payload) {
+        toast.success(payload);
+      }
     },
     togglesidebar: (state) => {
       state.isSidebarOpen = !state.isSidebarOpen;
