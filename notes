@@ -1,0 +1,27 @@
+installation ---
+
+# 1. favicon
+
+# 2. npm install normalize.css
+
+# 3. npm install styled-components
+
+# 4. npm install react-router-dom@6
+
+# 5. unDraw (url for the color and images)
+
+# 6. npm install --save react-toastify
+
+# 7. npm install @reduxjs/toolkit react-redux
+
+# 8. npm install axios
+
+# 9. npm install react-icons
+
+points to be remember ---
+
+# 1. why we are giving name in slice.js file while we creating.
+
+ans. Creating a slice requires a string name to identify the slice.
+
+# 2. localStorage topics
